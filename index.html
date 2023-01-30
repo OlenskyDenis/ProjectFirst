@@ -12,7 +12,7 @@
 
 <body>
 	<header class="header">
-		<div class="header__sign-in">
+		<div class="header__container">
 			<div class="header__currency">
 				<span>Currency :</span>
 				<select>
@@ -35,7 +35,7 @@
 		</div>
 	</header>
 	<main>
-		<div class="menu">
+		<div class="menu__container menu">
 			<div class="menu__up">
 				<p class="menu__logo">avenue fashion</p>
 				<div class="menu__nav">
@@ -93,21 +93,46 @@
 										up to 50% off
 									</p>
 								</div>
-
-
 							</div>
 						</li>
 						<li class="menu__topic">the brand</li>
 						<li class="menu__topic">local stores</li>
-						<li class="menu__topic">look book</li>
+						<li class="menu__topic">look book
+							<div class="dropdown">
+								<div class="dropdown__text">
+									<div class="dropdown__column">
+										<p>Casual</p>
+										<a href="#">Jackets</a>
+										<a href="#">Hoodies & Sweatshirts</a>
+										<a href="#">Polo Shirts</a>
+										<a href="#">Sportswear</a>
+										<a href="#">Trousers & Chinos</a>
+										<a href="#">T-Shirts</a>
+									</div>
+									<div class="dropdown__column">
+										<p>Formal</p>
+										<a href="#">Jackets</a>
+										<a href="#">Shirts</a>
+										<a href="#">Suits</a>
+										<a href="#">Trousers</a>
+									</div>
+								</div>
+								<div class="dropdown__adv">
+									<p>
+										Autumn sale!<br>
+										up to 50% off
+									</p>
+								</div>
+							</div>
+						</li>
 					</ul>
 					<input type="search" placeholder="Search" name="search">
 				</div>
 			</div>
-			<p class="menu__free-object">shop men’s collection
-			</p>
+			<!-- <p class="menu__free-object">shop men’s collection
+			</p> -->
 		</div>
-		<div class="offers">
+		<!--<div class="offers">
 			<div class="offers__just-line"></div>
 			<div class="offers__menu">
 				<ul>
@@ -118,114 +143,100 @@
 					<li>coming soon</li>
 				</ul>
 			</div>
-			<div class="offers__photos">
-				<div class="offers__first-column">
-					<div class="offers__row">
-						<div class="offers__image">
-							<div class="offers__image-hover">
-								<h4 class="offers__title">Womens burnt orange casual tee £29.95</h4>
-								<p class="offers__text">Classic casual t-shirt for women on the move.
-									100% cotton.
-									A hard-wearing sports t-shirt with microvent technology.</p>
-								<div class="offers__image-hover-icons">
-									<button class="offers__button"><img src="images/home/image-hover-icons basket.png"
-											alt="basket"></button>
-									<button class="offers__button"><img src="images/home/image-hover-icons heart.png"
-											alt="like"></button>
-									<button class="offers__button"><img src="images/home/image-hover-icons 3.png"
-											alt="squeeze"></button>
-								</div>
-							</div>
-						</div>
-						<div class="offers__image">
-							<div class="offers__image-hover">
-								<h4 class="offers__title">Womens burnt orange casual tee £29.95</h4>
-								<p class="offers__text">Classic casual t-shirt for women on the move.
-									100% cotton.
-									A hard-wearing sports t-shirt with microvent technology.</p>
-								<div class="offers__image-hover-icons">
-									<button class="offers__button"><img src="images/home/image-hover-icons basket.png"
-											alt="basket"></button>
-									<button class="offers__button"><img src="images/home/image-hover-icons heart.png"
-											alt="like"></button>
-									<button class="offers__button"><img src="images/home/image-hover-icons 3.png"
-											alt="squeeze"></button>
-								</div>
-							</div>
+			<div class="offers__gridfoto grid">
+				<div class="grid__item1">
+					<img src="images/home/1-1-1 photo.jpg" alt="">
+					<div class="grid__image-hover">
+						<h4 class="grid__title">Womens burnt orange casual tee £29.95</h4>
+						<p class="grid__text">Classic casual t-shirt for women on the move.
+							100% cotton.
+							A hard-wearing sports t-shirt with microvent technology.</p>
+						<div class="grid__image-hover-icons">
+							<button class="grid__button"><img src="images/home/image-hover-icons basket.png"
+									alt="basket"></button>
+							<button class="grid__button"><img src="images/home/image-hover-icons heart.png"
+									alt="like"></button>
+							<button class="grid__button"><img src="images/home/image-hover-icons 3.png" alt="squeeze"></button>
 						</div>
 					</div>
-					<div class="offers__row">
-						<div class="offers__image">
-							<div class="offers__image-hover">
-								<h4 class="offers__title">Womens burnt orange casual tee £29.95</h4>
-								<p class="offers__text">Classic casual t-shirt for women on the move.
-									100% cotton.
-									A hard-wearing sports t-shirt with microvent technology.</p>
-								<div class="offers__image-hover-icons">
-									<button class="offers__button"><img src="images/home/image-hover-icons basket.png"
-											alt="basket"></button>
-									<button class="offers__button"><img src="images/home/image-hover-icons heart.png"
-											alt="like"></button>
-									<button class="offers__button"><img src="images/home/image-hover-icons 3.png"
-											alt="squeeze"></button>
-								</div>
-							</div>
-						</div>
-					</div>
-
-
 				</div>
-				<div class="offers__second-column">
-					<div class="offers__row">
-						<div class="offers__image">
-							<div class="offers__image-hover">
-								<h4 class="offers__title">Womens burnt orange casual tee £29.95</h4>
-								<p class="offers__text">Classic casual t-shirt for women on the move.
-									100% cotton.
-									A hard-wearing sports t-shirt with microvent technology.</p>
-								<div class="offers__image-hover-icons">
-									<button class="offers__button"><img src="images/home/image-hover-icons basket.png"
-											alt="basket"></button>
-									<button class="offers__button"><img src="images/home/image-hover-icons heart.png"
-											alt="like"></button>
-									<button class="offers__button"><img src="images/home/image-hover-icons 3.png"
-											alt="squeeze"></button>
-								</div>
-							</div>
+				<div class="grid__item2">
+					<img src="images/home/1-1-2 photo.jpg" alt="">
+					<div class="grid__image-hover">
+						<h4 class="grid__title">Womens burnt orange casual tee £29.95</h4>
+						<p class="grid__text">Classic casual t-shirt for women on the move.
+							100% cotton.
+							A hard-wearing sports t-shirt with microvent technology.</p>
+						<div class="grid__image-hover-icons">
+							<button class="grid__button"><img src="images/home/image-hover-icons basket.png"
+									alt="basket"></button>
+							<button class="grid__button"><img src="images/home/image-hover-icons heart.png"
+									alt="like"></button>
+							<button class="grid__button"><img src="images/home/image-hover-icons 3.png" alt="squeeze"></button>
 						</div>
 					</div>
-					<div class="offers__row">
-						<div class="offers__image">
-							<div class="offers__image-hover">
-								<h4 class="offers__title">Womens burnt orange casual tee £29.95</h4>
-								<p class="offers__text">Classic casual t-shirt for women on the move.
-									100% cotton.
-									A hard-wearing sports t-shirt with microvent technology.</p>
-								<div class="offers__image-hover-icons">
-									<button class="offers__button"><img src="images/home/image-hover-icons basket.png"
-											alt="basket"></button>
-									<button class="offers__button"><img src="images/home/image-hover-icons heart.png"
-											alt="like"></button>
-									<button class="offers__button"><img src="images/home/image-hover-icons 3.png"
-											alt="squeeze"></button>
-								</div>
-							</div>
+				</div>
+				<div class="grid__itembig1">
+					<img src="images/home/2-1-1 photo.jpg" alt="">
+					<div class="grid__image-hover">
+						<h4 class="grid__title">Womens burnt orange casual tee £29.95</h4>
+						<p class="grid__text">Classic casual t-shirt for women on the move.
+							100% cotton.
+							A hard-wearing sports t-shirt with microvent technology.</p>
+						<div class="grid__image-hover-icons">
+							<button class="grid__button"><img src="images/home/image-hover-icons basket.png"
+									alt="basket"></button>
+							<button class="grid__button"><img src="images/home/image-hover-icons heart.png"
+									alt="like"></button>
+							<button class="grid__button"><img src="images/home/image-hover-icons 3.png" alt="squeeze"></button>
 						</div>
-						<div class="offers__image">
-							<div class="offers__image-hover">
-								<h4 class="offers__title">Womens burnt orange casual tee £29.95</h4>
-								<p class="offers__text">Classic casual t-shirt for women on the move.
-									100% cotton.
-									A hard-wearing sports t-shirt with microvent technology.</p>
-								<div class="offers__image-hover-icons">
-									<button class="offers__button"><img src="images/home/image-hover-icons basket.png"
-											alt="basket"></button>
-									<button class="offers__button"><img src="images/home/image-hover-icons heart.png"
-											alt="like"></button>
-									<button class="offers__button"><img src="images/home/image-hover-icons 3.png"
-											alt="squeeze"></button>
-								</div>
-							</div>
+					</div>
+				</div>
+				<div class="grid__itembig2">
+					<img src="images/home/1-2-1 photo.jpg" alt="">
+					<div class="grid__image-hover">
+						<h4 class="grid__title">Womens burnt orange casual tee £29.95</h4>
+						<p class="grid__text">Classic casual t-shirt for women on the move.
+							100% cotton.
+							A hard-wearing sports t-shirt with microvent technology.</p>
+						<div class="grid__image-hover-icons">
+							<button class="grid__button"><img src="images/home/image-hover-icons basket.png"
+									alt="basket"></button>
+							<button class="grid__button"><img src="images/home/image-hover-icons heart.png"
+									alt="like"></button>
+							<button class="grid__button"><img src="images/home/image-hover-icons 3.png" alt="squeeze"></button>
+						</div>
+					</div>
+				</div>
+				<div class="grid__item3">
+					<img src="images/home/2-2-1 photo.jpg" alt="">
+					<div class="grid__image-hover">
+						<h4 class="grid__title">Womens burnt orange casual tee £29.95</h4>
+						<p class="grid__text">Classic casual t-shirt for women on the move.
+							100% cotton.
+							A hard-wearing sports t-shirt with microvent technology.</p>
+						<div class="grid__image-hover-icons">
+							<button class="grid__button"><img src="images/home/image-hover-icons basket.png"
+									alt="basket"></button>
+							<button class="grid__button"><img src="images/home/image-hover-icons heart.png"
+									alt="like"></button>
+							<button class="grid__button"><img src="images/home/image-hover-icons 3.png" alt="squeeze"></button>
+						</div>
+					</div>
+				</div>
+				<div class="grid__item4">
+					<img src="images/home/2-2-2 photo.jpg" alt="">
+					<div class="grid__image-hover">
+						<h4 class="grid__title">Womens burnt orange casual tee £29.95</h4>
+						<p class="grid__text">Classic casual t-shirt for women on the move.
+							100% cotton.
+							A hard-wearing sports t-shirt with microvent technology.</p>
+						<div class="grid__image-hover-icons">
+							<button class="grid__button"><img src="images/home/image-hover-icons basket.png"
+									alt="basket"></button>
+							<button class="grid__button"><img src="images/home/image-hover-icons heart.png"
+									alt="like"></button>
+							<button class="grid__button"><img src="images/home/image-hover-icons 3.png" alt="squeeze"></button>
 						</div>
 					</div>
 				</div>
@@ -255,7 +266,8 @@
 				<div class="lookbook__description">
 					<p class="lookbook__title"><b>your</b>
 						lookbook</p>
-					<p class="lookbook__text">See an item you like and click the f08a button to add it to your lookbook where
+					<p class="lookbook__text">See an item you like and click the f08a button to add it to your lookbook
+						where
 						you can create your own perfect look.
 						It's like your own boutique!</p>
 					<a class="lookbook__button" href="">view now</a>
@@ -325,16 +337,17 @@
 						<a href="#" class="sitemap__social-icon"></a>
 						<a href="#" class="sitemap__social-icon"></a>
 						<a href="#" class="sitemap__social-icon"></a>
-						<!-- <a href="#"><img
+						<a href="#"><img
 								src="https://www.seekpng.com/png/detail/391-3911031_white-social-media-collection-icon-png-social-media.png"
 								alt="White Social Media Collection Icon Png, Social Media - 3d Social Media Icons Vector@seekpng.com"></a>
 						<a href="#"><img
 								src="https://www.seekpng.com/png/detail/391-3911031_white-social-media-collection-icon-png-social-media.png"
-								alt="White Social Media Collection Icon Png, Social Media - 3d Social Media Icons Vector@seekpng.com"></a> -->
-					</div>
-				</div>
-			</div>
-		</div>
+								alt="White Social Media Collection Icon Png, Social Media - 3d Social Media Icons Vector@seekpng.com"></a>
+						
+	</div>
+	</div>
+	</div>
+	</div>
 	</main>
 	<footer>
 		<div class="footer-container">
@@ -345,7 +358,7 @@
 			</div>
 		</div>
 
-	</footer>
+	</footer> -->
 </body>
 
 </html>
